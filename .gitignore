@@ -1,0 +1,13 @@
+*.pdf
+AGEs.csv
+earLobe.csv
+innerArm.csv
+thumbNail.csv
+vein.csv
+archive.zip
+*.tar.gz
+*.zip
+*.jpg
+*.JPG
+.DS_Store
+*.atikeep
