@@ -11,3 +11,6 @@ archive.zip
 *.JPG
 .DS_Store
 *.atikeep
+EEG_motorIg/data_keep/*
+*.event
+*.edf
