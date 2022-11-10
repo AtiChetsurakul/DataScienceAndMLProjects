@@ -10,3 +10,10 @@
 ## Progress 
 
 - Implenment the baseline Model according to the [1] but still not perform DATAENGINEER to mesh the spectra
+
+----------------------------------------------
+
+
+## TO use
+
+- follow the step on `datawatcher.ipynb`,and you can download dataset from `Kaggle` 
