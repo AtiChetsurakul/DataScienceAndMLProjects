@@ -1,9 +1,17 @@
 # MLproject_group2work
 > this respiratory created for implement few ML model.
 <br>
------------------------------------------------------
+
+
+-----------------------------------------------------------------
 
 ## Contributor
+- st123009	Ati Tesakulsiri 
+- st123418	Sorn Rambo [link](https://github.com/sornrambo)
+- st122934	Duc Nguyen [link](https://github.com/maskedclone)
+- st123225	Pyae Sone Kyaw 
+- st122825	Min Set Aung 
+- st122910	Nguyen Thai Anh [Link](https://github.com/anhnguyen1008)
 
 -----------------------------------------------------
 
@@ -11,7 +19,9 @@
 	- To sent as class project home work for `CP for DSAI` class as final project.
 	- To learn more on the process for implementing ML model.
 
------------------------------------------------------
+-------------------------------------------------------------
+
+
 ### Overview
 - RAMAN diabete
 	- ##### Scope and Topic understanding
