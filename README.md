@@ -1,15 +1,51 @@
 # MLproject_group2work
 > this respiratory created for implement few ML model.
 <br>
+-----------------------------------------------------
 
 ## Contributor
 
+-----------------------------------------------------
 
 - ### objective
 	- To sent as class project home work for `CP for DSAI` class as final project.
 	- To learn more on the process for implementing ML model.
 
+-----------------------------------------------------
+### Overview
+- RAMAN diabete
+	- ##### Scope and Topic understanding
+	- To indicate diabetes by using `Blood Biomarker` or `Analyte` called `advanced glycation end products` with `Raman spectroscopy`
+    - In this dataset there are 6 Analyte including
+        - 3-deoxyglucosone
+        - glyoxal
+        - glyoxal-lysine dimer GOLD
+        - methylglyoxal
+        - methylglyoxal-derived hydroimidazolone MG-H2
+        - pentosidine
+    <br><br>
+    - what is these 6 compound ?**[2]**<br>
+    <img src = 'https://www.ahajournals.org/cms/asset/838a5e28-bbae-46fd-8a56-7f87c632167c/13ff1.jpg'>
+- Advanced glycation end products (AGEs) are modifications of proteins or lipids that become nonenzymatically glycated and oxidized after contact with aldose sugars.1,2 Early glycation and oxidation processes result in the formation of Schiff bases and Amadori products. 
+- To see more look at `Diabete_detection_withRamanSpec` directory
 
+<br><br>
+
+- Plant Village
+	- To classify image we plan to use CNN method to do this project
+	- We implement basic model using `Tensorflow` with 3 class
+	- with ETL done with picklefile and img size of 64*64
+	- at `ImgClassif_withPlantVillage` directory
+<img src ='ImgClassif_withPlantVillage/resultSimmodel.png'>
+
+<br><br>
+
+- EEG Motor Movement/Imagery
+	- file download method implemented
+	- `EEG_motorIg` directory
+
+
+-------------------------------------------------------
 - ### October Progress 
 	- RAMANporkfat
 		- ~~The `http://www.models.life.ku.dk/RAMANporkfat` dataset are unable to load due to it is `.mat` file~~.
