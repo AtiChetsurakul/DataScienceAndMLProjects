@@ -9,7 +9,7 @@
 - st123009	Ati Tesakulsiri 
 - st123418	Sorn Rambo [link](https://github.com/sornrambo)
 - st122934	Duc Nguyen [link](https://github.com/maskedclone)
-- st123225	Pyae Sone Kyaw 
+- st123225	Pyae Sone Kyaw [link](https://github.com/soneeee22000)
 - st122825	Min Set Aung 
 - st122910	Nguyen Thai Anh [Link](https://github.com/anhnguyen1008)
 
