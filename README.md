@@ -16,7 +16,7 @@
 -----------------------------------------------------
 
 - ### objective
-	- To sent as class project home work for `CP for DSAI` class as final project.
+	- To send as class project home work for `CP for DSAI` class as final project.
 	- To learn more on the process for implementing ML model.
 
 -------------------------------------------------------------
