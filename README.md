@@ -95,7 +95,7 @@
 <!-- - ### Nov Progress
 	- 11/10/2022
 		- Raman for diabete type 2
-			<!-- - On hold || dataProblem -->
+			<!-- - On hold || dataProblem 
 			- Finish Baseline model **without** implement the Validation set.
 
 			- I Put this topic on hold due to It seem too easy to solve.
