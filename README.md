@@ -92,7 +92,7 @@
 		- TODO > study
 		- We need to rescale the imagevalue ( the value of the color).
 	
-- ### Nov Progress
+<!-- - ### Nov Progress
 	- 11/10/2022
 		- Raman for diabete type 2
 			<!-- - On hold || dataProblem -->
@@ -105,7 +105,7 @@
 
 		- EEG EEG Motor Movement/Imagery Dataset
 			- Retrive dataset from [here](https://physionet.org/content/eegmmidb/1.0.0/)
-			- starting
+			- starting -->
 
 
 
