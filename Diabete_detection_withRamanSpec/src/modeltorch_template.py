@@ -52,7 +52,7 @@ class RamLSTM(nn.Module):
         
 
 class RamConv1d_bnmx(nn.Module):
-    def __init__(self, input_size = 1, hidden_size=50,hidden_size2=10,linear_hidden=14, out_size=2):
+    def __init__(self, input_size = 1, hidden_size=10,hidden_size2=50,linear_hidden=14, out_size=2):
         super().__init__()
         self.conv1 = nn.Conv1d(input_size, hidden_size, kernel_size = 3)      
         self.relu1 = nn.ReLU()                            
@@ -63,7 +63,7 @@ class RamConv1d_bnmx(nn.Module):
         self.relu2 = nn.ReLU()                           
         
         # Fully connected layers
-        self.fc1 = nn.Linear(2480, linear_hidden)
+        self.fc1 = nn.Linear(12400, linear_hidden)
         self.fc2 = nn.Linear(linear_hidden, out_size)
         self.batchnorm1 = nn.BatchNorm1d(hidden_size)
         self.batchnorm2 = nn.BatchNorm1d(hidden_size2)
