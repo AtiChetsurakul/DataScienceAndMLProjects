@@ -1,6 +1,5 @@
 # MLproject_group2work
 > this respiratory created for implement few ML model.
-<br>
 
 ## TOPIC
 - ### **MAIN** [Raman spectroscopy of Diabetes](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/Diabete_detection_withRamanSpec)
