@@ -2,7 +2,11 @@
 > this respiratory created for implement few ML model.
 <br>
 
-
+## TOPIC
+- ### **MAIN** [Raman spectroscopy of Diabetes](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/Diabete_detection_withRamanSpec)
+- ### [Plant Village](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/ImgClassif_withPlantVillage)
+- ### [EEG Motor Movement/Imagery](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/EEG_motorIg)
+- ### ~~RAMAN FOR Depth profiling of ADIPOSETISSUE~~
 -----------------------------------------------------------------
 
 ## Contributor
@@ -10,7 +14,7 @@
 - st123418	Sorn Rambo [link](https://github.com/sornrambo)
 - st122934	Duc Nguyen [link](https://github.com/maskedclone)
 - st123225	Pyae Sone Kyaw [link](https://github.com/soneeee22000)
-- st122825	Min Set Aung 
+- st122825	Min Set Aung [link](https://github.com/minsetaung1995)
 - st122910	Nguyen Thai Anh [Link](https://github.com/anhnguyen1008)
 
 -----------------------------------------------------
