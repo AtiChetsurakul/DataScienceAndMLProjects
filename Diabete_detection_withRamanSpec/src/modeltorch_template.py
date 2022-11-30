@@ -19,6 +19,22 @@ class NeuralNet(nn.Module):
         out = self.fc2(out)
         return out
 
+class IntANN(nn.Module):
+    def __init__(self, input_size, hidden_size, num_classes):
+        super().__init__()  #super(Model, self)
+        self.fc1 = nn.Linear(input_size, hidden_size) 
+        #add non-linearity; recall ReLU is max(input, 0) 
+        self.snm = nn.Softmax(dim=1)
+        self.do1 = nn.Dropout(p=.5)
+        self.fc2 = nn.Linear(hidden_size, num_classes)  
+    
+    def forward(self, x):
+        out = self.fc1(x)
+        out = self.snm(out)
+        out = self.do1(out)
+        out = self.fc2(out)
+        return out
+
 
 class RamConv1d(nn.Module):
     def __init__(self, input_size = 1, hidden_size=50,linear_hidden=14, out_size=2):
@@ -50,6 +66,25 @@ class RamLSTM(nn.Module):
         out = self.linear(out)
         return out
         
+
+class IntRamLSTM(nn.Module):
+    def __init__(self, input_size = 1000, hidden_size=100,hidden_s2 = 14, out_size=2):
+        super().__init__()
+        self.lstm   = nn.LSTM(input_size, hidden_size, batch_first=True,dropout = 0.5)
+        self.linear = nn.Linear(hidden_size, hidden_s2)
+        self.linear2 = nn.Linear(hidden_s2, out_size)
+        self.do = nn.Dropout(p=.5)
+        self.relu = nn.ReLU()
+        
+    def forward(self, seq):
+        out, (_, _) = self.lstm(seq)
+        out = out[:, -1, :] #(B, Hout)
+        # 
+        out = self.linear(out)
+        out = self.relu(out)
+        self.do(out)
+
+        return self.linear2(out)
 
 class RamConv1d_bnmx(nn.Module):
     def __init__(self, input_size = 1, hidden_size=10,hidden_size2=50,linear_hidden=14, out_size=2):
