@@ -5,6 +5,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from BaselineRemoval import BaselineRemoval
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from scipy import signal
 
 
 PLT = '/root/projects/ProjectAug22/CP/Diabete_detection_withRamanSpec/dataset/'
@@ -62,6 +63,18 @@ def fluoresence_removal(datalist_toremove):
         X_train_VR.append(X_train_each)
     return X_train_VR
 
+
+def savitzky_smooth(datalist_toremove):
+    X_train_VR = []
+    for X_each_type in datalist_toremove:
+        X_train_each = []
+        for each_train in X_each_type:
+            raman_smooth = signal.savgol_filter(
+                each_train, window_length=11, polyorder=3, mode="nearest")
+            X_train_each.append(raman_smooth)
+        X_train_each = np.array(X_train_each)
+        X_train_VR.append(X_train_each)
+    return X_train_VR
 
 # PREPROCESS = True
 # FITBYSPECTRUM = True
