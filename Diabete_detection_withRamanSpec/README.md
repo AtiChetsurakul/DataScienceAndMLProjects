@@ -26,14 +26,17 @@
 ## Progress 
 
 - **DONE** Implenment the baseline Model according to the [1] but still not perform DATAENGINEER to mesh the spectra 
-- 29 nov, we finish preprocessing, basic model traing using deep-learning method.
-- making , easy to follow data training notebook.
+- **DONE** 29 nov, we finish preprocessing, basic model traing using deep-learning method.
+- **DONE** making , easy to follow data training notebook.
+- **DONE** training with ML nd DL.
+- **DONE** Concluding result.
 
 ----------------------------------------------
 
 
 ## TO use
 
+- to read our work as pdf please look at `CP present.pdf`
 - follow the step on `datawatcher.ipynb`,and you can download dataset from `Kaggle` 
 - After finish download data, all the `csv` file can be place in `dataset` directory which you can create new here
 - then run `bash starter.sh`, `zsh starter.sh` or `ssh starter.sh` depend on your `shell`
@@ -41,3 +44,6 @@
 - In `datawatcher`, we focus on EDA process of the data and also learn the dataset.
 - In `model_fitting.ipynb`, we hide the EDA step for easier looking
 - In `src` directory, we provide python function module that might help.
+- Want to try your DL model or ML model plese visit 
+    - for DL`light_template.ipynb`
+    - for ML **IN progress**
