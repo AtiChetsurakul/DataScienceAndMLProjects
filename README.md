@@ -2,7 +2,7 @@
 > this respiratory created for implement few ML model.
 
 ## TOPIC
-- ### **MAIN** [Raman spectroscopy of Diabetes](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/Diabete_detection_withRamanSpec)
+- ### **MAIN DONE** [Raman spectroscopy of Diabetes](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/Diabete_detection_withRamanSpec)
 - ### [Plant Village](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/ImgClassif_withPlantVillage)
 - ### [EEG Motor Movement/Imagery](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/EEG_motorIg)
 - ### ~~RAMAN FOR Depth profiling of ADIPOSETISSUE~~
@@ -95,10 +95,7 @@
 <!-- - ### Nov Progress
 	- 11/10/2022
 		- Raman for diabete type 2
-			<!-- - On hold || dataProblem 
-			- Finish Baseline model **without** implement the Validation set.
-
-			- I Put this topic on hold due to It seem too easy to solve.
+			- ### DONE
 
 		- Plant Village
 			- Baseline model implemantation
