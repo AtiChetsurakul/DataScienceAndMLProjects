@@ -23,6 +23,12 @@
 
 -----------------------------------------
 
+## Structure
+- Our experimental notepad is in `datawatcher.ipynb`
+- Source code for some certain function are at `src` directory
+
+-----------------------------------------
+
 ## Progress 
 
 - **DONE** Implenment the baseline Model according to the [1] but still not perform DATAENGINEER to mesh the spectra 
