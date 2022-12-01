@@ -40,7 +40,7 @@
 - follow the step on `datawatcher.ipynb`,and you can download dataset from `Kaggle` 
 - After finish download data, all the `csv` file can be place in `dataset` directory which you can create new here
 - then run `bash starter.sh`, `zsh starter.sh` or `ssh starter.sh` depend on your `shell`
-    - the list in `requirements.txt` is inculding unneed gym, please be aware.
+    - if you want to have a docker env for working on this you might consider this [respiratory](https://github.com/AtiChetsurakul/DataScienceDockerEnv)
 - In `datawatcher`, we focus on EDA process of the data and also learn the dataset.
 - In `model_fitting.ipynb`, we hide the EDA step for easier looking
 - In `src` directory, we provide python function module that might help.
