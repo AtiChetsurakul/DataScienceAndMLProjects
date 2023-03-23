@@ -3,9 +3,9 @@
 
 ## TOPIC
 - ### **MAIN DONE** [Raman spectroscopy of Diabetes](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/Diabete_detection_withRamanSpec)
-- ### [Plant Village](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/ImgClassif_withPlantVillage)
+<-- - ### [Plant Village](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/ImgClassif_withPlantVillage)
 - ### [EEG Motor Movement/Imagery](https://github.com/AtiChetsurakul/DataScienceAndMLProjects/tree/main/EEG_motorIg)
-- ### ~~RAMAN FOR Depth profiling of ADIPOSETISSUE~~
+- ### ~~RAMAN FOR Depth profiling of ADIPOSETISSUE~~ -->
 -----------------------------------------------------------------
 
 ## Contributor
